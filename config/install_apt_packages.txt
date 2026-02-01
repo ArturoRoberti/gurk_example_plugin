@@ -1,4 +1,3 @@
-# See all available apt packages at https://packages.ubuntu.com/
 git-lfs
 curl
 wget
@@ -19,6 +18,6 @@ software-properties-common
 build-essential
 gdb
 gedit
+rsync
 nvtop
 htop
-rsync

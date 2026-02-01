@@ -1,0 +1,16 @@
+HOME:
+  .cmds:
+    argparse.bash:
+      https://github.com/nhoffman/argparse-bash.git?path=argparse.bash
+    aliases.bash: ../templates/aliases.bash
+  git: null
+  Documents:
+    Personal:
+      CVs: null
+      IDs: null
+    General: null
+    Work: null
+ROOT:
+  usr:
+    bin:
+      python: symlink:///usr/bin/python3

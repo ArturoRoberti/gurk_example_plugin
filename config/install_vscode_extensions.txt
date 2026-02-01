@@ -1,4 +1,3 @@
-# Find extensions via Ctrl+Shift+X or at https://marketplace.visualstudio.com/vscode
 github.copilot
 gitHub.copilot-chat
 eamodio.gitlens
@@ -15,14 +14,3 @@ mhutchie.git-graph
 brandonblaschke.easy-highlight
 iliazeus.vscode-ansi
 dotjoshjohnson.xml
-
-# # Other recommendations
-# ms-python.pylint
-# ms-iot.vscode-ros
-# timonwong.shellcheck
-# ms-python.black-formatter
-# matepek.vscode-catch2-test-adapter
-# ryanluker.vscode-coverage-gutters
-# gitLab.gitlab-workflow
-# xaver.clang-format
-# ms-python.debugpy

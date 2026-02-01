@@ -1,0 +1,50 @@
+imports:
+  - gurk
+  - conda
+  - docker
+  - fzf
+  - nvidia
+  - vscode
+
+options:
+  setup: &setup_option
+    conda/install-conda:
+      enabled: true
+      args: ["--conda-conda-distribution", "miniconda"]
+    conda/install-mamba:
+      enabled: true
+      args: ["--conda-mamba-distribution", "micromamba"]
+    docker/install-docker:
+      enabled: true
+      args: ["--docker-additional-packages", "nvidia-container-toolkit", "devcontainers-cli"]
+    fzf/install-fzf:
+      enabled: true
+    fzf/install-loki-shell:
+      enabled: true
+    gurk/configure-bashrc:
+      enabled: true
+      config_file: config/configure_bashrc.bash
+    gurk/configure-filestructure:
+      enabled: true
+      config_file: config/configure_filestructure.yaml
+    gurk/configure-pinned-apps:
+      enabled: true
+      config_file: config/configure_pinned_apps.txt
+    gurk/install-apt-packages:
+      enabled: true
+      config_file: config/install_apt_packages.txt
+    gurk/install-snap-packages:
+      enabled: true
+      config_file: config/install_snap_packages.txt
+    vscode/install-vscode-extensions:
+      enabled: true
+      config_file: config/install_vscode_extensions.txt
+    nvidia/install-nvidia-driver:
+      enabled: true
+      args: ["--nvidia-driver-version", "recommended"]
+  setdown:
+    fzf/uninstall-fzf:
+      enabled: true
+    fzf/uninstall-loki-shell:
+      enabled: true
+  default: *setup_option

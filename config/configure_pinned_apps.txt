@@ -1,0 +1,5 @@
+brave_brave.desktop
+terminator.desktop
+org.gnome.Nautilus.desktop
+org.gnome.gedit.desktop
+code.desktop

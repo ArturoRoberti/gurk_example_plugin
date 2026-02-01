@@ -1,7 +1,0 @@
-enable_all: true
-install-isaaclab:
-  enabled: false
-install-isaacsim:
-  enabled: false
-install-ros:
-  enabled: false

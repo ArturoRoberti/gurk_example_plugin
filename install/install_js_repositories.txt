@@ -1,5 +1,0 @@
-# See common git repositories at
-# - https://github.com/
-# - https://gitlab.com/
-# - https://bitbucket.org/
-https://github.com/excalidraw/excalidraw.git
