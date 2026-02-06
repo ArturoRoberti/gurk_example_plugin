@@ -4,8 +4,9 @@
 # example_gurk_plugin
 Example plugin for the [gurk package manager](https://github.com/ArturoRoberti/gurk). Used as
 ```bash
-pip install gurk
-gurk run --plugin git@github.com:ArturoRoberti/example_gurk_plugin.git
+sudo apt update && sudo apt install pipx git
+pipx install gurk && gurk init
+gurk run 'https://github.com/ArturoRoberti/example_gurk_plugin.git'
 ```
 
 # License
