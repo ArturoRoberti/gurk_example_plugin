@@ -1,13 +1,14 @@
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellow?logo=apache&logoColor=white)]()
+[![Parent](https://img.shields.io/badge/Parent-gurk-brown?logo=github)](https://github.com/ArturoRoberti/gurk)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
-# example_gurk_plugin
+# gurk_example_plugin
 Example plugin for the [gurk package manager](https://github.com/ArturoRoberti/gurk). Used as
 ```bash
 sudo apt update && sudo apt install pipx git
 pipx install gurk && gurk init
-gurk run 'https://github.com/ArturoRoberti/example_gurk_plugin.git'
+gurk run 'https://github.com/ArturoRoberti/gurk_example_plugin.git'
 ```
 
 # License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/ArturoRoberti/gurk_example_plugin/blob/main/LICENSE) file for details.
